@@ -1,0 +1,19 @@
+{
+  "name": "obdurate",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "dev": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "start": "nodemon src/index.bs.js"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Gabriel Wu <wuzihua@pku.edu.cn>",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.14",
+    "nodemon": "^1.18.9"
+  }
+}
