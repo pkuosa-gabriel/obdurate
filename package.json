@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
+    "build:js": "bsb -make-world -backend js",
+    "build:native": "bsb -make-world -backend native",
     "dev": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "start": "nodemon src/index.bs.js"
+    "start": "yarn build && ./lib/bs/bytecode/index.byte"
   },
   "keywords": [
     "BuckleScript"
@@ -14,6 +16,9 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "^4.0.14",
-    "nodemon": "^1.18.9"
+    "bsb-native": "^4.0.7000"
+  },
+  "dependencies": {
+    "reprocessing": "^0.2.0"
   }
 }
