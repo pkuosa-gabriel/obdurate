@@ -20,17 +20,22 @@ Tsdl@bsansouci/tsdl:
   dependencies:
     sdl2 bsansouci/SDL-mirror#fast
 
+bs-platform-native@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/bs-platform-native/-/bs-platform-native-0.0.6.tgz#9f7e403a61429769aef5be9537ec977a1719cc1f"
+  integrity sha512-k2o1HzRTgcAtIzwu/RkPKwTQmvROvc31kxJU4ELryr1vgiqaxp0Dx6iKwmM8v4fn7VurXUkLcffi/3rrASryDw==
+
 bs-platform@4.0.14:
   version "4.0.14"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.14.tgz#1d9e9622d59ebf4d39408d07b41997201c5f9750"
   integrity sha512-bxeMwZPnJ90r48SavF60pkzGn7heaoHn7IF7fpPdh5L8WZfCzf76AikH2zWJii4QahUeInvRN1tNPWQt3ckKJQ==
 
-bsb-native@^4.0.7000:
-  version "4.0.7000"
-  resolved "https://registry.yarnpkg.com/bsb-native/-/bsb-native-4.0.7000.tgz#04031ae81a3cd53d48868593fe059c1d5752403b"
-  integrity sha512-RcmbmdwvGHnQBhxkz6B7+J0d4cTUhWDGIJ94DmjHDlwgH7cnzWTTKqASWkPiPTqlNFyZtQxZ9qTvAQrsE/iMpw==
+bsb-native@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/bsb-native/-/bsb-native-5.0.3.tgz#8af40e96ab35fe9f557d6364393c55c58697cede"
+  integrity sha512-DqEha+PLO2WngHXAP2swIEu6U3RYmQqFU2dCCa9N2tUetYgTKakVYQm41T1KC/5PVvuW1qmZHrDTqk1PUnK97Q==
   dependencies:
-    yauzl "^2.9.1"
+    bs-platform-native "^0.0.6"
 
 buffer-crc32@~0.2.3:
   version "0.2.13"
@@ -54,7 +59,7 @@ pend@~1.2.0:
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
 
-reprocessing@^0.2.0:
+reprocessing@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/reprocessing/-/reprocessing-0.2.0.tgz#3a7533dc4cb5aedb5f54cefd78fa336f7e104729"
   integrity sha512-LZRwSIuvlYXTUZYLwHPXzttl8rbFQRhiI2ZTADglTw0kv/Cj07JwcCY4lWyJT5UF4Ham+67SQfEFuN+eobR6vg==
