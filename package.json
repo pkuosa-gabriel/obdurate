@@ -19,6 +19,6 @@
     "bsb-native": "4.0.7000"
   },
   "dependencies": {
-    "reprocessing": "0.2.0"
+    "reprocessing": "1.0.0"
   }
 }
